@@ -24,9 +24,11 @@ A Python script that uploads files from the user's Desktop and Downloads folders
 `Undetectable.py`
 To increase the chances of evading detection:
 
-Use a different name: Rename your executable to something obscure, like setup.exe or update.dll. This makes it harder for antivirus software to identify the file's purpose.
-Modify the PE structure: Add unnecessary sections to the Portable Executable (PE) header of your binary. For example, you could add an "import table" with a dummy DLL and then mark that DLL as not being used. This will make it difficult for some antivirus software to analyze the file correctly.
-Use compression: Compress your executable using tools like UPX or FSG (Flexible SuperPackager) to reduce its size. This can help hide patterns that might be detected by antivirus algorithms.
+* Use a different name: Rename your executable to something obscure, like setup.exe or update.dll. This makes it harder for antivirus software to identify the file's purpose.
+* Modify the PE structure: Add unnecessary sections to the Portable Executable (PE) header of your binary. For example, you could add an "import table" with a dummy DLL and then mark that DLL as not being used. This will make it difficult for some antivirus software to analyze the file correctly.
+* Use compression: Compress your executable using tools like UPX or FSG (Flexible SuperPackager) to reduce its size. This can help hide patterns that might be detected by antivirus algorithms.
+
+
 **Requirements**
 --------------
 
