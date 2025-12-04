@@ -10,7 +10,7 @@ A Python script that uploads files from the user's Desktop and Downloads folders
 
 1. Install required libraries by running `pip install requests`
 2. Replace `webhook_url` with your own Discord webhook URL
-3. Run the script using `python file_uploader.py`
+3. Run the script using `python stealer.py`
 
 **Features**
 --------
