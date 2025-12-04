@@ -1,4 +1,3 @@
-Here's an example of what your `README.md` file could look like:
 
 **File Uploader Script**
 =======================
